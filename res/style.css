@@ -1,0 +1,252 @@
+/* Általános */
+
+*
+{
+    margin-top: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #293241;
+    background-color: #ddd;
+}
+
+header
+{
+    background-image: url(../res/img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 70%;
+}
+
+header h1
+{
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin: 0;
+}
+header p
+{
+    padding-top: 30%;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+nav
+{
+    width: 30%;
+}
+
+nav ul
+{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+    padding-top: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+nav li
+{
+    margin-left: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: large;
+    color: #ccc;
+}
+
+nav li:hover
+{
+    background-color: #7C8CAC;
+}
+.container-header
+{
+    display: flex;
+    /*margin: auto;*/
+    align-items: top;
+    justify-content: space-around;
+    color: #ccc;
+    background-color: #293241;
+    margin-bottom: 30px;
+}
+
+footer
+{
+    background-color: #B09374;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #ccc;
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+.button
+{
+    padding: 10px 15px;
+    background-color: #7C8CAC;
+    color: #ccc;
+}
+
+.button:hover
+{
+    background-color: #293241;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    background-color: #eee;
+}
+thead
+{
+    background-color: #7C8CAC;
+    color: #ccc;
+    font-size: 90%;
+    text-align: left;
+}
+th, td
+{
+    padding: 7px 12px;
+}
+tr
+{
+    border-bottom: 1px solid #7C8CAC;
+}
+
+/* Főoldal */
+main
+{
+    width: 70%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.gallery
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.gallery img
+{
+    max-width: 48%;
+}
+aside
+{
+    width: 30%;
+    padding-right: 20px;
+}
+
+aside img
+{
+    width: 100%;
+}
+
+main .bottom-border
+{
+    border-bottom: #293241 solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+aside section
+{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #7C8CAC;
+    color: #ccc;
+}
+.container-main
+{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+/* Katalógus */
+table.fish-table img
+{
+    height: auto;
+    width: 100px;
+}
+
+/* Hírek */
+.news
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    gap: 50px 30px;
+}
+
+.news article
+{
+    display: flex;
+    /*justify-content: space-between;
+    align-items: start;*/
+    width: 48%;
+}
+
+.news article img
+{
+    border-radius: 8px;
+    border: #293241 2px solid;
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info
+{
+    width: 60%
+}
+
+.article
+{
+    margin-left: 35px;
+}
+
+.article img
+{
+    object-fit: cover;
+    height: 200px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
